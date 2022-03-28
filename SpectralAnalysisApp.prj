@@ -1,0 +1,153 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3714134634" file="C:\Users\garny\Documents\code\matlab\NEH\SpectralAnalysisApp\SpectralAnalysisApp.prj" location="C:\Users\garny\Documents\code\matlab\NEH\SpectralAnalysisApp" name="SpectralAnalysisApp" preferred-package-location="C:\Users\garny\Documents\code\matlab\NEH\SpectralAnalysisApp\SpectralAnalysisApp\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>SpectralAnalysisApp</param.appname>
+    <param.icon>${PROJECT_ROOT}\SpectralAnalysisApp_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\SpectralAnalysisApp_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\SpectralAnalysisApp_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\SpectralAnalysisApp_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\SpectralAnalysisApp_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Tania Kleynhans</param.authnamewatermark>
+    <param.email>tkpci@rit.edu</param.email>
+    <param.company>Rochester Institute of Technology</param.company>
+    <param.summary>Image Analysis application for the processing of multi- or hyper-spectral images. Specifically designed as a low barrier to entry tfor the</param.summary>
+    <param.description>Image Analysis application for the processing of multi- or hyper-spectral images. Specifically designed as a low barrier to entry tool for the recovery of damaged, erased or faded historical texts. However can also be used for any MSI HSI datasets.</param.description>
+    <param.screenshot>C:\Users\garny\Documents\RIT\RCHIVE\Logos\R-CHIVE logo-sml.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\Rochester Institute of Technology\SpectralAnalysisApp\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\SpectralAnalysisApp\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\SpectralAnalysisApp\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\SpectralAnalysisApp\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\SpectralAnalysisApp</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages>
+      <item>&lt;package displayname="Hyperspectral Imaging Library Support Package" enabled="true" name="Hyperspectral Imaging Library Support Package" product="Image Processing Toolbox"/&gt;</item>
+    </param.support.packages>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>SpectralAnalysisApp_RuntimeDownload</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>true</param.create.log>
+    <param.log.file>SpectralAnalysisApp.txt</param.log.file>
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.version />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\SpectralAnalysisApp.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${MATLAB_ROOT}\toolbox\local\userpath.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2020b\toolbox\images\supportpackages\hyperspectral\hyper\hypermnf.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2020b\toolbox\images\supportpackages\hyperspectral\hyper\hyperpca.m</file>
+      <file>${PROJECT_ROOT}\auto_calibrate.m</file>
+      <file>${PROJECT_ROOT}\BandMath.mlapp</file>
+      <file>${PROJECT_ROOT}\CubeOptions.mlapp</file>
+      <file>${PROJECT_ROOT}\CurtainView.mlapp</file>
+      <file>${PROJECT_ROOT}\envidataread.m</file>
+      <file>${PROJECT_ROOT}\envidatawrite.m</file>
+      <file>${PROJECT_ROOT}\envihdrread.m</file>
+      <file>${PROJECT_ROOT}\envihdrwrite.m</file>
+      <file>${PROJECT_ROOT}\enviread.m</file>
+      <file>${PROJECT_ROOT}\enviwrite.m</file>
+      <file>${PROJECT_ROOT}\get_selected_image_from_dataStruct.m</file>
+      <file>${PROJECT_ROOT}\HSV_changes.m</file>
+      <file>${PROJECT_ROOT}\icons\rotate 180.PNG</file>
+      <file>${PROJECT_ROOT}\icons\rotate left.PNG</file>
+      <file>${PROJECT_ROOT}\icons\rotate right.PNG</file>
+      <file>${PROJECT_ROOT}\ObserverXYZ.csv</file>
+      <file>${PROJECT_ROOT}\PCAcalc.m</file>
+      <file>${PROJECT_ROOT}\splash.png</file>
+      <file>${PROJECT_ROOT}\stretchImage.m</file>
+      <file>${PROJECT_ROOT}\true_color.m</file>
+      <file>${PROJECT_ROOT}\Wave_A_D50_D55_D65_D75.csv</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\SpectralAnalysisApp\for_testing" name="splash.png" optional="false">C:\Users\garny\Documents\code\matlab\NEH\SpectralAnalysisApp\SpectralAnalysisApp\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\SpectralAnalysisApp\for_testing" name="readme.txt" optional="true">C:\Users\garny\Documents\code\matlab\NEH\SpectralAnalysisApp\SpectralAnalysisApp\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\SpectralAnalysisApp\for_testing" name="SpectralAnalysisApp.exe" optional="false">C:\Users\garny\Documents\code\matlab\NEH\SpectralAnalysisApp\SpectralAnalysisApp\for_testing\SpectralAnalysisApp.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
